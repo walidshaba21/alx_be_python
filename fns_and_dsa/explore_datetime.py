@@ -1,6 +1,7 @@
 from datetime import datetime
 
-current_date = datetime.now()
+def display_current_datetime():
+    current_date = datetime.now()
+    print(current_date)
 
-
-print(current_date)
+display_current_datetime()

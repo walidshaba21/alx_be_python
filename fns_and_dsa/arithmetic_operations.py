@@ -1,15 +1,15 @@
 def perform_operation(num1, num2, operation):
     operation = operation.lower()
     
-    if(operation == "add" or "+" ):
+    if operation in ("add", "+" ):
         return num1 + num2
-    elif(operation == "subtract" or "-"):
+    elif operation in ("subtract", "-"):
         return num1 - num2 
-    elif(operation == "multiply" or "*" or "x"):
+    elif operation in ("multiply", "*", "x"):
         return num1 * num2
-    elif(operation == "divide" or "/"):
+    elif operation in ("divide", "/"):
         if(num2 == 0):
-            return num1 / num2
-        return "The divided can't be 0, check the numbers and try again."
+            return "The divided can't be 0, chack the numbers and try again"
+        return num1 / num2
     else:
         return  "Invalid operator entered"      

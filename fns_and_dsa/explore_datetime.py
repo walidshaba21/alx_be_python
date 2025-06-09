@@ -13,3 +13,5 @@ def calculate_future_date():
         future_date = datetime.now()+ timedelta(days = number_of_days)
 
         print("Future date: ",future_date)
+
+calculate_future_date()

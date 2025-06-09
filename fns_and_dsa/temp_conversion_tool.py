@@ -7,7 +7,7 @@ def convert_to_celcius(fahrenheit):
 
 def convert_to_fahrenheit(celsius):
     global CELSIUS_TO_FAHRENHEIT_FACTOR
-    return celsius * CELCIUS_TO_FAHRENHEIT_FACTOR + 32
+    return celsius * CELSIUS_TO_FAHRENHEIT_FACTOR + 32
 
 def get_temperature():
     while True:

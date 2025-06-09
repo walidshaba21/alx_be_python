@@ -17,7 +17,7 @@ def get_temperature():
             temp_value = int(temp_value)
             break
         else:
-            print("Not a valid temperature value.")
+            print("Invalid temperature. Please enter a numeric value.")
     temp_conversion = input("Is this temperature in Celsius or Fahrenheit? (C/F):")
     temp_conversion = temp_conversion.lower()
     if temp_conversion == "c":

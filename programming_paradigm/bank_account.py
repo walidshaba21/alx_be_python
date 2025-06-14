@@ -16,5 +16,5 @@ class BankAccount:
                 return f"Your new account balance is {self.account_balance}, {self.amount} has been withdrawn."
 
         def display_balance(self):
-            return f"Your account Balance is : {self.account_balance}."
+            return f"Current Balance: {self.account_balance}."
 

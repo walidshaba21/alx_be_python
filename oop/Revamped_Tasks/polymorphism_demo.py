@@ -1,20 +1,20 @@
 import math
 class Shape:
-    def area(self):
-        raise NotImplementedError("Derived Class needs to overide this method")
+    def areaself:
+        raise NotImplementedError"Derived Class needs to overide this method"
     
-class Rectangle(Shape):
-    def __init__(self, length , width):
+class RectangleShape:
+    def __init__self, length , width:
         self.length = length
         self.width = width
 
-    def area(self):
+    def areaself:
         return self.length * self.width
     
-class Circle(Shape):
-    def __init__(self, radius):
+class CircleShape:
+    def __init__self, radius:
         self.radius = radius
 
-    def area(self):
-        return math.pi * (self.radius * self.radius)
+    def areaself:
+        return math.pi * self.radius * self.radius
     
